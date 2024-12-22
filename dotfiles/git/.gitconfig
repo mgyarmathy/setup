@@ -1,0 +1,7 @@
+[pull]
+	rebase = true
+[fetch]
+	prune = true
+[user]
+	name = mgyarmathy
+	email = michael@gyarmathy.me

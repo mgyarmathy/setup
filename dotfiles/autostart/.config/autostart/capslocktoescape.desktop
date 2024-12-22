@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=/bin/sh -c "sleep 3;setxkbmap -option caps:escape"
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=Caps Lock to Escape
+Name=setxkbmap
+Comment[en_US]=
+Comment=
