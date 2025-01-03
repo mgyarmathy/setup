@@ -11,8 +11,8 @@ gsettings set org.gnome.desktop.calendar show-weekdate true
 gsettings set org.gnome.desktop.interface clock-show-weekday true
 
 # Hide Workspaces and Applications buttons on top bar
-gsettings set org.gnome.shell.extensions.pop-cosmic show-applications-button true
-gsettings set org.gnome.shell.extensions.pop-cosmic show-workspaces-button true
+gsettings set org.gnome.shell.extensions.pop-cosmic show-applications-button false
+gsettings set org.gnome.shell.extensions.pop-cosmic show-workspaces-button false
 
 # Move the clock to the right side of the top bar
 gsettings set org.gnome.shell.extensions.pop-cosmic clock-alignment 'RIGHT'
