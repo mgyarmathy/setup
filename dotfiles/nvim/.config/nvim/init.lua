@@ -803,6 +803,8 @@ require("lazy").setup({
 			-- Simple and easy statusline.
 			--  You could remove this setup call if you don't like it,
 			--  and try some other statusline plugin
+			--  TODO: try swapping this for lualine.nvim (Tomorrow theme)
+			--  https://github.com/nvim-lualine/lualine.nvim/blob/master/THEMES.md
 			local statusline = require("mini.statusline")
 			-- set use_icons to true if you have a Nerd Font
 			statusline.setup({ use_icons = vim.g.have_nerd_font })

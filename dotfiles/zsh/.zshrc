@@ -8,6 +8,8 @@ setopt hist_ignore_dups       # ignore duplicated commands history list
 setopt hist_ignore_space      # ignore commands that start with space
 setopt hist_verify            # show command with history expansion to user before running it
 
+alias bat='batcat'
+alias cat='bat --paging=never'
 alias ls='ls -GFh'
 alias vim='nvim'
 
