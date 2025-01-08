@@ -1,27 +1,20 @@
 {
-  "editor.fontFamily": "InconsolataGo Nerd Font Mono",
+  "editor.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.fontSize": 13,
   "editor.tabSize": 2,
   "editor.renderWhitespace": "all",
-  // "security.workspace.trust.untrustedFiles": "open",
-  // "editor.minimap.enabled": false,
-  // "git.ignoreMissingGitWarning": true,
-  // "editor.fontSize": 12,
-  // "editor.occurrencesHighlight": "off",
-  // "editor.selectionHighlight": false,
-  // "editor.suggestOnTriggerCharacters": false,
-  // "editor.tabCompletion": "on",
-  // "editor.quickSuggestions": {
-  //   "other": false,
-  //   "comments": false,
-  //   "strings": false
-  // },
-  // "files.trimTrailingWhitespace": true,
-  // "git.confirmSync": false,
-  // "window.menuBarVisibility": "compact",
-  // "git.autofetch": true,
-  // "git.openRepositoryInParentFolders": "always",
-  // "explorer.confirmDelete": false,
-  // "extensions.ignoreRecommendations": true,
-  // "workbench.colorTheme": "Tokyo Night",
-  // "window.titleBarStyle": "custom"
+  "files.associations": {
+    "*.html.erb": "html",
+  },
+  "extensions.ignoreRecommendations": true,
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false,
+    "yaml": true
+  },
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.colorTheme": "Tomorrow Night",
 }
