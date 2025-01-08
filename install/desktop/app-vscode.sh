@@ -1,8 +1,5 @@
 if [[ $(uname) == 'Darwin' ]]; then
   brew install --cask visual-studio-code
-
-  mkdir -p ~/Library/Application\ Support/Code/User
-  cp ~/Code/mgyarmathy/setup/dotfiles/vscode/.config/Code/User/settings.json ~/Library/Application\ Support/Code/User/settings.json
 elif [[ $(uname) == 'Linux' ]]; then
   cd /tmp
   wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor >packages.microsoft.gpg
@@ -13,9 +10,6 @@ elif [[ $(uname) == 'Linux' ]]; then
 
   sudo apt update -y
   sudo apt install -y code
-
-  mkdir -p ~/.config/Code/User
-  cp ~/Code/mgyarmathy/setup/dotfiles/vscode/.config/Code/User/settings.json ~/.config/Code/User/settings.json
 fi
 
 code --install-extension ms-vscode.Theme-TomorrowKit
