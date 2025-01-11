@@ -131,7 +131,6 @@ return {
 			})
 
 			-- Change diagnostic symbols in the sign column (gutter)
-			-- TODO: maybe disable this again
 			if vim.g.have_nerd_font then
 				local signs = { ERROR = "", WARN = "", INFO = "", HINT = "" }
 				local diagnostic_signs = {}
